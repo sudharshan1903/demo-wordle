@@ -28,7 +28,7 @@ let solution;
 fetchTargetWords().then(target_words => {
   if (target_words) {
     solution = getRandomWord(target_words);
-    console.log(solution);
+    console.log(solution,"solution");
   }
 });
 
